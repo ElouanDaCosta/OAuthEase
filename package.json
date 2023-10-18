@@ -1,0 +1,29 @@
+{
+  "name": "oauthease",
+  "version": "1.0.0",
+  "description": "A library to simplify the oauth2 connection",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElouanDaCosta/OAuthEase.git"
+  },
+  "keywords": [
+    "oauth2",
+    "library",
+    "easy"
+  ],
+  "author": "Elouan Da Costa Peixoto",
+  "license": "ISC"
+}

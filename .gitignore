@@ -1,0 +1,18 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Built output
+dist/
+build/
+lib/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
