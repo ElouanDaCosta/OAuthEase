@@ -13,6 +13,7 @@
     "dist"
   ],
   "scripts": {
+    "server": "node ./test/server.js",
     "test": "test"
   },
   "repository": {
@@ -25,5 +26,9 @@
     "easy"
   ],
   "author": "Elouan Da Costa Peixoto",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
 }
