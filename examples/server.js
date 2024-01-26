@@ -1,8 +1,11 @@
 import express from 'express';
 
+
 const app = express();
 
 app.get('/callback', (req, res) => {
+  const code = req.query.code;
+  AuthorisationCodeFlow.init();
   res.send('Redirected successfully !');
 });
 

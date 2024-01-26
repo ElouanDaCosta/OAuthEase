@@ -13,7 +13,7 @@
     "dist"
   ],
   "scripts": {
-    "server": "node ./test/server.js",
+    "server": "node ./examples/server.js",
     "test": "test"
   },
   "repository": {
